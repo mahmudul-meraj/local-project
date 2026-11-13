@@ -84,3 +84,46 @@ footer {
   background: #1e293b;
   color: white;
 }
+
+.commands {
+  padding: 60px 20px;
+  text-align: center;
+  background: #e2e8f0;
+}
+
+.commands h2 {
+  margin-bottom: 30px;
+  color: #1e293b;
+}
+
+.command-list {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: white;
+  border-left: 4px solid #6366f1;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.command code {
+  background: #1e293b;
+  color: #38bdf8;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.command span {
+  color: #475569;
+  font-size: 0.9rem;
+}
